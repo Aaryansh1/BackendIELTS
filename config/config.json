@@ -14,10 +14,10 @@
     "dialect": "mysql"
   },
   "production": {
-    "username": "root",
-    "password": null,
+    "username": "epiz_32243308",
+    "password": "mgoKMtBzF2C49ib",
     "database": " epiz_32243308_backend",
-    "host": "http://185.27.134.10/",
+    "host": "sql112.epizy.com",
     "dialect": "mysql"
   }
 }
