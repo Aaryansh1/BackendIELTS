@@ -6,9 +6,11 @@ require("dotenv").config();
 
 app.use(express.json());
 app.use(cookieParser());
-app.use(cors({ credentials: true, origin: "http://localhost:3000" }));
+app.use(cors({ credentials: true }));
 
 const db = require("./models");
+
+app.get('/', (request , response) => response.status(200).send('hello world'));
 
 const postRouter = require("./routes/Posts");
 app.use("/posts", postRouter);
