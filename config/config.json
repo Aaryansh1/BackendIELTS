@@ -16,8 +16,8 @@
   "production": {
     "username": "root",
     "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
+    "database": " epiz_32243308_backend",
+    "host": "http://185.27.134.10/",
     "dialect": "mysql"
   }
 }
